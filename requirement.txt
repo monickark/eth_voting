@@ -1,0 +1,18 @@
+To be built on Ethereum blockchain
+Entities:
+•	Voters 
+•	Candidate
+•	Registration Authority(RA)
+•	Election Authority(EA)
+•	Address Pool
+•	Public supervision
+Sequential Phases:
+•	Preparation Phase: To begin with, the Election Authority (EA) should set up a new voting project first, and then store  address as its private key into EA system.
+•	First Registration Phase: The voting registration stations run by Registration Authority(RA) are located nearby residential areas. Voters and election candidates are eligible to vote after authentication of passport or other essential IDs. A random register code will be sent to participants as a link by RA through email.
+•	Second Registration Phase: Once participants click the random register code link sent by RA, they can generate their public key and private key by using key pair tools or local RSA tool. The new generated public key should be stored in the system, while private key can be held privately.
+•	Publish Phase: On the voting cut-off date, every single public key from voters will be collected under supervision. As long as the start voting button has been clicked, RA will not accept new registration requests anymore.
+•	Voting Phase: When voters use their private key to sign favourable candidate, they will get a unique ring signature which will be broadcasted to the blockchain. The protocol does not require every voter to take part in during voting phase.
+•	Tallying Phase: Tallying stage is strictly under public supervision, people can access to the tally page to view or cast ballots.
+•	Verification Phase: In order to monitor the validity of the voting result, EA transaction history are open for public on blockchain.
+https://www.dgalindo.es/mscprojects/yifan.pdf
+
